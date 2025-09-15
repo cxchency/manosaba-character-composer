@@ -16,9 +16,7 @@ from tqdm import tqdm
 
 import UnityPy
 from UnityPy.files import ObjectReader
-from UnityPy.classes import TextAsset, Texture2D, AudioClip, AssetBundle, Sprite, GameObject, Transform, SpriteRenderer, Shader, EditorExtension
-from PyCriCodecsEx.acb import ACB
-from PyCriCodecsEx.hca import HCACodec
+from UnityPy.classes import TextAsset, Texture2D, AudioClip, AssetBundle, Sprite, GameObject, Transform, SpriteRenderer, EditorExtension
 
 ILLEGAL_CHARS_RE = re.compile(r'[<>:"/\\|?*#]')
 
@@ -130,32 +128,13 @@ class AssetBundleExtractor:
         res_name = getattr(data, "m_Name", None) or f"unnamed_{obj.path_id}"
         sanitized_res_name = _sanitize_name(res_name)
         out_base_path = out_dir / sanitized_res_name
-        if out_base_path.name.endswith(".acb"):
-            # 处理 .acb 格式的音频
-            try:
-                byte_content = data.m_Script.encode("utf-8", "surrogateescape")
-                output_flac_path = out_base_path.with_suffix(".flac")
-                if self._skip_if_exists(output_flac_path): return
-                acb_obj = ACB(byte_content)
-                waveforms = acb_obj.get_waveforms()
-                if waveforms and isinstance(waveforms[0], HCACodec):
-                    wf = waveforms[0]
-                    with io.BytesIO(wf.decode()) as bio:
-                        audio, samplerate = sf.read(bio)
-                        sf.write(output_flac_path, audio, samplerate, format="FLAC", compression_level=1)
-                    self._log("debug", f"导出音频: {output_flac_path}")
-                    self.type_counter["audio"] += 1
-            except Exception as e:
-                self._log("error", f"处理 ACB 音频失败: {out_base_path.name} | {e}")
-                self.type_counter["error"] += 1
-        else:
-            out_base_path = out_base_path.with_suffix(".txt")
-            if self._skip_if_exists(out_base_path): return
-            # 处理普通文本
-            text_bytes = data.m_Script.encode("utf-8", "replace")
-            out_base_path.write_bytes(text_bytes)
-            self.type_counter["text"] += 1
-            return
+        out_base_path = out_base_path.with_suffix(".txt")
+        if self._skip_if_exists(out_base_path): return
+        # 处理普通文本
+        text_bytes = data.m_Script.encode("utf-8", "replace")
+        out_base_path.write_bytes(text_bytes)
+        self.type_counter["text"] += 1
+        return
 
     def _handle_texture(self, obj: ObjectReader, out_dir: Path):
         """处理 Texture2D 资源"""
