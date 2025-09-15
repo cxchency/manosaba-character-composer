@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ character }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div id="main-layout">
+        <div id="controls">
+            <div id="controls-content"></div>
+            <!-- 保留桌面行为：按钮仍存在但将在移动端视觉上由抽屉替换 -->
+            <button id="resetBtn" class="fixed-btn">重置选择器</button>
+            <button id="backBtn" class="fixed-btn">返回主页</button>
+            <button id="saveBtn" class="fixed-btn">下载图片</button>
+        </div>
+        <div id="splitter"></div>
+        <div id="canvas-container">
+            <canvas id="canvas" width="1024" height="1024"></canvas>
+        </div>
+    </div>
+    <!-- 移动端底部抽屉（默认隐藏，仅在小屏设备上显示） -->
+    <div id="mobile-drawer" class="drawer-closed" aria-hidden="true">
+        <div id="drawer-handle" role="button" aria-label="选择器展开收起">
+            <span class="drawer-handle-bar" aria-hidden="true"></span>
+            <span class="sr-only">向上拖动或点击以打开选择器</span>
+        </div>
+        <div id="drawer-content">
+            <div id="drawer-buttons">
+                <button id="saveBtn_mobile" class="drawer-btn">下载图片</button>
+                <button id="backBtn_mobile" class="drawer-btn">返回主页</button>
+                <button id="resetBtn_mobile" class="drawer-btn">重置选择器</button>
+            </div>
+            <div id="drawer-controls-content"></div>
+        </div>
+    </div>
+    <script>
+        window.currentCharacter = "{{ character }}";
+        window.rootNode = {{ root_node | tojson }};
+    </script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+</body>
+</html>

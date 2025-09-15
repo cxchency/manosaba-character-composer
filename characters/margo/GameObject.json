@@ -1,0 +1,3916 @@
+{
+  "2074089837515547402": {
+    "Name": "Margo",
+    "Id": "2074089837515547402",
+    "ParentId": null,
+    "Transform": {
+      "Position": {
+        "x": 0.0,
+        "y": 15.0,
+        "z": 0.0
+      },
+      "Rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "Scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "SpriteRenderer": null,
+    "IsActive": true,
+    "Children": {
+      "8323262136508130058": {
+        "Name": "Angle01",
+        "Id": "8323262136508130058",
+        "ParentId": "2074089837515547402",
+        "Transform": {
+          "Position": {
+            "x": -0.019999999552965164,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 0.6420000195503235,
+            "y": 0.6420000195503235,
+            "z": 1.0
+          }
+        },
+        "SpriteRenderer": null,
+        "IsActive": true,
+        "Children": {
+          "7856678303155331850": {
+            "Name": "ArmL",
+            "Id": "7856678303155331850",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "8254316333853549322": {
+                "Name": "ArmL01",
+                "Id": "8254316333853549322",
+                "ParentId": "7856678303155331850",
+                "Transform": {
+                  "Position": {
+                    "x": 5.484999656677246,
+                    "y": -1.3250007629394531,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmL01",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": true,
+                  "SortingOrder": 65,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-7441631632236567798": {
+                "Name": "ArmL02",
+                "Id": "-7441631632236567798",
+                "ParentId": "7856678303155331850",
+                "Transform": {
+                  "Position": {
+                    "x": 3.5699996948242188,
+                    "y": -0.030000686645507812,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmL02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 64,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "1366056805594080010": {
+                "Name": "ArmL03",
+                "Id": "1366056805594080010",
+                "ParentId": "7856678303155331850",
+                "Transform": {
+                  "Position": {
+                    "x": 3.2749996185302734,
+                    "y": 1.2250003814697266,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmL03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 63,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "6229669626132734730": {
+                "Name": "ArmL04",
+                "Id": "6229669626132734730",
+                "ParentId": "7856678303155331850",
+                "Transform": {
+                  "Position": {
+                    "x": 2.640000343322754,
+                    "y": 1.4650001525878906,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmL04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 62,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-3253997369199123702": {
+                "Name": "ArmL05",
+                "Id": "-3253997369199123702",
+                "ParentId": "7856678303155331850",
+                "Transform": {
+                  "Position": {
+                    "x": 1.0850000381469727,
+                    "y": 0.26000022888183594,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmL05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 61,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "-1562314800650738934": {
+            "Name": "ArmR",
+            "Id": "-1562314800650738934",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "-3232167753989709046": {
+                "Name": "ArmR01",
+                "Id": "-3232167753989709046",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -5.3899993896484375,
+                    "y": 0.14500045776367188,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR01",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": true,
+                  "SortingOrder": 59,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "87529099043578634": {
+                "Name": "ArmR02",
+                "Id": "87529099043578634",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -2.4549999237060547,
+                    "y": 1.9200000762939453,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 58,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "605851202245337866": {
+                "Name": "ArmR03",
+                "Id": "605851202245337866",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -2.8499999046325684,
+                    "y": 2.1949996948242188,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 57,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "2799071198786200330": {
+                "Name": "ArmR04",
+                "Id": "2799071198786200330",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -3.9699997901916504,
+                    "y": 3.260000228881836,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 56,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "9057495168388342538": {
+                "Name": "ArmR05",
+                "Id": "9057495168388342538",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -3.4749999046325684,
+                    "y": 0.22500038146972656,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 55,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "6792758692654392074": {
+                "Name": "ArmR06",
+                "Id": "6792758692654392074",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -3.7849998474121094,
+                    "y": 1.2049999237060547,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR06",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 54,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "1295239220062495498": {
+                "Name": "ArmR07",
+                "Id": "1295239220062495498",
+                "ParentId": "-1562314800650738934",
+                "Transform": {
+                  "Position": {
+                    "x": -0.7399997711181641,
+                    "y": 0.7999992370605469,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "ArmR07",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 53,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Default",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "-4415931132615482614": {
+            "Name": "Body",
+            "Id": "-4415931132615482614",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": -1.065000057220459,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": {
+              "Sprite": {
+                "Name": "Body",
+                "PixelsToUnits": 100.0,
+                "Pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "Enabled": true,
+              "SortingOrder": 1,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "Materials": [
+                {
+                  "Name": "Naninovel_Default",
+                  "Floats": {
+                    "_StencilRef": 0.0,
+                    "_StencilComp": 8.0
+                  }
+                }
+              ]
+            },
+            "IsActive": true,
+            "Children": {}
+          },
+          "2653972600069268234": {
+            "Name": "ClippingMask_Facial_Multiply",
+            "Id": "2653972600069268234",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": -0.30500030517578125,
+                "y": 15.210000991821289,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": {
+              "Sprite": {
+                "Name": "ClippingMask_Facial_Multiply",
+                "PixelsToUnits": 100.0,
+                "Pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "Enabled": true,
+              "SortingOrder": 50,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "Materials": [
+                {
+                  "Name": "Naninovel_Multiply#Masked_Ref2",
+                  "Floats": {
+                    "_StencilRef": 2.0,
+                    "_StencilComp": 4.0
+                  }
+                }
+              ]
+            },
+            "IsActive": true,
+            "Children": {}
+          },
+          "-6051084877903846646": {
+            "Name": "ClippingMask_Facial_Normal01",
+            "Id": "-6051084877903846646",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": -0.31999969482421875,
+                "y": 15.399999618530273,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": {
+              "Sprite": {
+                "Name": "ClippingMask_Facial_Normal01",
+                "PixelsToUnits": 100.0,
+                "Pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "Enabled": true,
+              "SortingOrder": 52,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "Materials": [
+                {
+                  "Name": "Naninovel_Default#Masked_Ref2",
+                  "Floats": {
+                    "_StencilRef": 2.0,
+                    "_StencilComp": 4.0
+                  }
+                }
+              ]
+            },
+            "IsActive": true,
+            "Children": {}
+          },
+          "-1371362590122597622": {
+            "Name": "ClippingMask_Facial_Normal02",
+            "Id": "-1371362590122597622",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": -8.734999656677246,
+                "y": 19.899999618530273,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": {
+              "Sprite": {
+                "Name": "ClippingMask_Facial_Normal02",
+                "PixelsToUnits": 100.0,
+                "Pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "Enabled": true,
+              "SortingOrder": 51,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 1.0
+              },
+              "Materials": [
+                {
+                  "Name": "Naninovel_Default#Masked_Ref2",
+                  "Floats": {
+                    "_StencilRef": 2.0,
+                    "_StencilComp": 4.0
+                  }
+                }
+              ]
+            },
+            "IsActive": true,
+            "Children": {}
+          },
+          "-8902925176809741558": {
+            "Name": "ClippingMask_Facial_Normal03",
+            "Id": "-8902925176809741558",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": -0.26999950408935547,
+                "y": 14.405000686645508,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": {
+              "Sprite": {
+                "Name": "ClippingMask_Facial_Normal03",
+                "PixelsToUnits": 100.0,
+                "Pivot": {
+                  "x": 0.5,
+                  "y": 0.5
+                }
+              },
+              "Enabled": true,
+              "SortingOrder": 49,
+              "Color": {
+                "r": 1.0,
+                "g": 1.0,
+                "b": 1.0,
+                "a": 0.6274510025978088
+              },
+              "Materials": [
+                {
+                  "Name": "Naninovel_Default#Masked_Ref2",
+                  "Floats": {
+                    "_StencilRef": 2.0,
+                    "_StencilComp": 4.0
+                  }
+                }
+              ]
+            },
+            "IsActive": true,
+            "Children": {}
+          },
+          "-4620233281235541238": {
+            "Name": "Effect_Back_ArmL",
+            "Id": "-4620233281235541238",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "-79333087188638966": {
+                "Name": "Effect_Back_ArmL02",
+                "Id": "-79333087188638966",
+                "ParentId": "-4620233281235541238",
+                "Transform": {
+                  "Position": {
+                    "x": 2.619999885559082,
+                    "y": -1.0550003051757812,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmL02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 12,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-4717934249024838902": {
+                "Name": "Effect_Back_ArmL03",
+                "Id": "-4717934249024838902",
+                "ParentId": "-4620233281235541238",
+                "Transform": {
+                  "Position": {
+                    "x": 2.7950000762939453,
+                    "y": -0.020000457763671875,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmL03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 11,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-21595961308896502": {
+                "Name": "Effect_Back_ArmL04",
+                "Id": "-21595961308896502",
+                "ParentId": "-4620233281235541238",
+                "Transform": {
+                  "Position": {
+                    "x": 2.7950000762939453,
+                    "y": -0.020000457763671875,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmL04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 10,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "3645938557007405834": {
+                "Name": "Effect_Back_ArmL05",
+                "Id": "3645938557007405834",
+                "ParentId": "-4620233281235541238",
+                "Transform": {
+                  "Position": {
+                    "x": 1.5699996948242188,
+                    "y": -2.7549991607666016,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmL05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 9,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "8338270738269315850": {
+            "Name": "Effect_Back_ArmR",
+            "Id": "8338270738269315850",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "-7431242501075983606": {
+                "Name": "Effect_Back_ArmR02",
+                "Id": "-7431242501075983606",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -1.864999771118164,
+                    "y": 2.4300003051757812,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 7,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "6677965763151504138": {
+                "Name": "Effect_Back_ArmR03",
+                "Id": "6677965763151504138",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -1.864999771118164,
+                    "y": 2.4300003051757812,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 6,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-5633041034082671862": {
+                "Name": "Effect_Back_ArmR04",
+                "Id": "-5633041034082671862",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -2.7649998664855957,
+                    "y": -2.1650009155273438,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 5,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-1052355004189793526": {
+                "Name": "Effect_Back_ArmR05",
+                "Id": "-1052355004189793526",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -2.875,
+                    "y": -2.684999465942383,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 4,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "4287653949434471178": {
+                "Name": "Effect_Back_ArmR06",
+                "Id": "4287653949434471178",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -2.5249996185302734,
+                    "y": 1.4750003814697266,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR06",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 3,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-8462336494668176630": {
+                "Name": "Effect_Back_ArmR07",
+                "Id": "-8462336494668176630",
+                "ParentId": "8338270738269315850",
+                "Transform": {
+                  "Position": {
+                    "x": -0.2200002670288086,
+                    "y": -1.7199993133544922,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Back_ArmR07",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 2,
+                  "Color": {
+                    "r": 1.0,
+                    "g": 1.0,
+                    "b": 1.0,
+                    "a": 1.0
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Multiply",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "1375840141889282826": {
+            "Name": "Effect_Front_ArmL",
+            "Id": "1375840141889282826",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "6579008018127627018": {
+                "Name": "Effect_Front_ArmL02",
+                "Id": "6579008018127627018",
+                "ParentId": "1375840141889282826",
+                "Transform": {
+                  "Position": {
+                    "x": 1.6549997329711914,
+                    "y": 3.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmL02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 78,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-543944219568659702": {
+                "Name": "Effect_Front_ArmL03",
+                "Id": "-543944219568659702",
+                "ParentId": "1375840141889282826",
+                "Transform": {
+                  "Position": {
+                    "x": 2.3249998092651367,
+                    "y": 7.684999465942383,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmL03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 77,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "8979839109078164234": {
+                "Name": "Effect_Front_ArmL04",
+                "Id": "8979839109078164234",
+                "ParentId": "1375840141889282826",
+                "Transform": {
+                  "Position": {
+                    "x": 2.5900001525878906,
+                    "y": 5.434999465942383,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmL04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 76,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-5856721078696500470": {
+                "Name": "Effect_Front_ArmL05",
+                "Id": "-5856721078696500470",
+                "ParentId": "1375840141889282826",
+                "Transform": {
+                  "Position": {
+                    "x": 0.5150003433227539,
+                    "y": 4.7350006103515625,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmL05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 75,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "-3195585206336707830": {
+            "Name": "Effect_Front_ArmR",
+            "Id": "-3195585206336707830",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "-6344935508868685046": {
+                "Name": "Effect_Front_ArmR01",
+                "Id": "-6344935508868685046",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -5.460000038146973,
+                    "y": 4.905000686645508,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR01",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": true,
+                  "SortingOrder": 73,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-5454634797147577590": {
+                "Name": "Effect_Front_ArmR02",
+                "Id": "-5454634797147577590",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -2.1949996948242188,
+                    "y": 5.494998931884766,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR02",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 72,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-2557450151833328886": {
+                "Name": "Effect_Front_ArmR03",
+                "Id": "-2557450151833328886",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -2.5249996185302734,
+                    "y": 5.045000076293945,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR03",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 71,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-5863985120841260278": {
+                "Name": "Effect_Front_ArmR04",
+                "Id": "-5863985120841260278",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -3.9599995613098145,
+                    "y": 9.719999313354492,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR04",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 70,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "8076018928574243594": {
+                "Name": "Effect_Front_ArmR05",
+                "Id": "8076018928574243594",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -2.5349998474121094,
+                    "y": 5.579999923706055,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR05",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 69,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "-5381190754298518774": {
+                "Name": "Effect_Front_ArmR06",
+                "Id": "-5381190754298518774",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -3.4049997329711914,
+                    "y": 6.670000076293945,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR06",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 68,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              },
+              "62564500456907530": {
+                "Name": "Effect_Front_ArmR07",
+                "Id": "62564500456907530",
+                "ParentId": "-3195585206336707830",
+                "Transform": {
+                  "Position": {
+                    "x": -0.05500030517578125,
+                    "y": 2.760000228881836,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": {
+                  "Sprite": {
+                    "Name": "Effect_Front_ArmR07",
+                    "PixelsToUnits": 100.0,
+                    "Pivot": {
+                      "x": 0.5,
+                      "y": 0.5
+                    }
+                  },
+                  "Enabled": false,
+                  "SortingOrder": 67,
+                  "Color": {
+                    "r": 0.6274510025978088,
+                    "g": 0.6274510025978088,
+                    "b": 0.6274510025978088,
+                    "a": 0.125490203499794
+                  },
+                  "Materials": [
+                    {
+                      "Name": "Naninovel_Overlay",
+                      "Floats": {
+                        "_StencilRef": 0.0,
+                        "_StencilComp": 8.0
+                      }
+                    }
+                  ]
+                },
+                "IsActive": true,
+                "Children": {}
+              }
+            }
+          },
+          "-7012832875621342454": {
+            "Name": "Facial",
+            "Id": "-7012832875621342454",
+            "ParentId": "8323262136508130058",
+            "Transform": {
+              "Position": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "Rotation": {
+                "x": -0.0,
+                "y": -0.0,
+                "z": -0.0,
+                "w": 1.0
+              },
+              "Scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+              }
+            },
+            "SpriteRenderer": null,
+            "IsActive": true,
+            "Children": {
+              "1938563163552719626": {
+                "Name": "Cheeks",
+                "Id": "1938563163552719626",
+                "ParentId": "-7012832875621342454",
+                "Transform": {
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": null,
+                "IsActive": true,
+                "Children": {
+                  "-7597528335746030838": {
+                    "Name": "Cheeks_Flushed",
+                    "Id": "-7597528335746030838",
+                    "ParentId": "1938563163552719626",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2950000762939453,
+                        "y": 14.144998550415039,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Cheeks_Flushed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 14,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Multiply",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "3714514512479953674": {
+                    "Name": "Cheeks_Normal",
+                    "Id": "3714514512479953674",
+                    "ParentId": "1938563163552719626",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2849998474121094,
+                        "y": 13.92500114440918,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Cheeks_Normal",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": true,
+                      "SortingOrder": 15,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  }
+                }
+              },
+              "-1301001975436369142": {
+                "Name": "Eyes",
+                "Id": "-1301001975436369142",
+                "ParentId": "-7012832875621342454",
+                "Transform": {
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": null,
+                "IsActive": true,
+                "Children": {
+                  "1304280173224436490": {
+                    "Name": "Eyes_Angry_Middle",
+                    "Id": "1304280173224436490",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.33500003814697266,
+                        "y": 14.769998550415039,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Angry_Middle",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 36,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "1914628772797129482": {
+                    "Name": "Eyes_Angry_Open",
+                    "Id": "1914628772797129482",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.710000991821289,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Angry_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 37,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-3982691236379712758": {
+                    "Name": "Eyes_Cry_Open",
+                    "Id": "-3982691236379712758",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.30500030517578125,
+                        "y": 14.315000534057617,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Cry_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 33,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "299654592625419018": {
+                    "Name": "Eyes_Fearful_Open",
+                    "Id": "299654592625419018",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.3450002670288086,
+                        "y": 14.60999870300293,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Fearful_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 31,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "6658630744225915658": {
+                    "Name": "Eyes_Normal_Closed",
+                    "Id": "6658630744225915658",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.499998092651367,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Normal_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 41,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "4437117023873311498": {
+                    "Name": "Eyes_Normal_Open",
+                    "Id": "4437117023873311498",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.704999923706055,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Normal_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": true,
+                      "SortingOrder": 42,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "4447316416371270410": {
+                    "Name": "Eyes_Pensive_Middle",
+                    "Id": "4447316416371270410",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.25,
+                        "y": 14.780000686645508,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Pensive_Middle",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 34,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-2975098545677819126": {
+                    "Name": "Eyes_Pensive_Open",
+                    "Id": "-2975098545677819126",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.684999465942383,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Pensive_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 35,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "1326439732835492618": {
+                    "Name": "Eyes_Smile_Closed",
+                    "Id": "1326439732835492618",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.28999996185302734,
+                        "y": 14.894998550415039,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Smile_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 38,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-6792572343363198198": {
+                    "Name": "Eyes_Smile_Middle",
+                    "Id": "-6792572343363198198",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.23999977111816406,
+                        "y": 14.954999923706055,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Smile_Middle",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 39,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "7302397815845528330": {
+                    "Name": "Eyes_Smile_Open",
+                    "Id": "7302397815845528330",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.30500030517578125,
+                        "y": 14.780000686645508,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Smile_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 40,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-1719668065983880438": {
+                    "Name": "Eyes_Surprised_Open",
+                    "Id": "-1719668065983880438",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2950000762939453,
+                        "y": 14.745000839233398,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Surprised_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 32,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "611116662093161226": {
+                    "Name": "Eyes_Uncomfortable_Open01",
+                    "Id": "611116662093161226",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.600000381469727,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Uncomfortable_Open01",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 30,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-1608235794054995190": {
+                    "Name": "Eyes_Uncomfortable_Open02",
+                    "Id": "-1608235794054995190",
+                    "ParentId": "-1301001975436369142",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.2799997329711914,
+                        "y": 14.444997787475586,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Eyes_Uncomfortable_Open02",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 29,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default#Mask_Ref2_CutoffLow",
+                          "Floats": {
+                            "_StencilRef": 2.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  }
+                }
+              },
+              "-899261536345545974": {
+                "Name": "Mouth",
+                "Id": "-899261536345545974",
+                "ParentId": "-7012832875621342454",
+                "Transform": {
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": null,
+                "IsActive": true,
+                "Children": {
+                  "-7571686583835581686": {
+                    "Name": "Mouth_Angry_Closed",
+                    "Id": "-7571686583835581686",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": 0.005000114440917969,
+                        "y": 13.034997940063477,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Angry_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 23,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "5983145041702724362": {
+                    "Name": "Mouth_Cry_Closed",
+                    "Id": "5983145041702724362",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.029999732971191406,
+                        "y": 13.094999313354492,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Cry_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 20,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "3611967611788436234": {
+                    "Name": "Mouth_Neutral_Closed",
+                    "Id": "3611967611788436234",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": 0.005000114440917969,
+                        "y": 12.98499870300293,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Neutral_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 17,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-1269738711576829174": {
+                    "Name": "Mouth_Neutral_Open",
+                    "Id": "-1269738711576829174",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.010000228881835938,
+                        "y": 12.969999313354492,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Neutral_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 18,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-3213642770696002806": {
+                    "Name": "Mouth_Normal_Closed",
+                    "Id": "-3213642770696002806",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.01999950408935547,
+                        "y": 13.079999923706055,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Normal_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 26,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "1333880240432194314": {
+                    "Name": "Mouth_Normal_Open",
+                    "Id": "1333880240432194314",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.010000228881835938,
+                        "y": 13.069997787475586,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Normal_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": true,
+                      "SortingOrder": 27,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "1756522420698915594": {
+                    "Name": "Mouth_Pensive_Closed",
+                    "Id": "1756522420698915594",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.05000019073486328,
+                        "y": 13.045000076293945,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Pensive_Closed",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 21,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-997312526693981430": {
+                    "Name": "Mouth_Pensive_Open",
+                    "Id": "-997312526693981430",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.029999732971191406,
+                        "y": 13.07499885559082,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Pensive_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 22,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-4170143485625523446": {
+                    "Name": "Mouth_Smile_Middle",
+                    "Id": "-4170143485625523446",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.05500030517578125,
+                        "y": 13.094999313354492,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Smile_Middle",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 24,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-8839235295442525430": {
+                    "Name": "Mouth_Smile_Open",
+                    "Id": "-8839235295442525430",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.034999847412109375,
+                        "y": 13.144998550415039,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Smile_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 25,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  },
+                  "-2795667028355800310": {
+                    "Name": "Mouth_Surprised_Open",
+                    "Id": "-2795667028355800310",
+                    "ParentId": "-899261536345545974",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.039999961853027344,
+                        "y": 13.004999160766602,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Mouth_Surprised_Open",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 19,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  }
+                }
+              },
+              "-5860210476769238262": {
+                "Name": "Pale",
+                "Id": "-5860210476769238262",
+                "ParentId": "-7012832875621342454",
+                "Transform": {
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": null,
+                "IsActive": true,
+                "Children": {
+                  "3219107198498677514": {
+                    "Name": "Pale01",
+                    "Id": "3219107198498677514",
+                    "ParentId": "-5860210476769238262",
+                    "Transform": {
+                      "Position": {
+                        "x": -0.3000001907348633,
+                        "y": 14.989999771118164,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Pale01",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 46,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Multiply",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  }
+                }
+              },
+              "6192175205954528010": {
+                "Name": "Sweat",
+                "Id": "6192175205954528010",
+                "ParentId": "-7012832875621342454",
+                "Transform": {
+                  "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                  },
+                  "Rotation": {
+                    "x": -0.0,
+                    "y": -0.0,
+                    "z": -0.0,
+                    "w": 1.0
+                  },
+                  "Scale": {
+                    "x": 1.0,
+                    "y": 1.0,
+                    "z": 1.0
+                  }
+                },
+                "SpriteRenderer": null,
+                "IsActive": true,
+                "Children": {
+                  "5747868553243501322": {
+                    "Name": "Sweat01",
+                    "Id": "5747868553243501322",
+                    "ParentId": "6192175205954528010",
+                    "Transform": {
+                      "Position": {
+                        "x": 1.0250005722045898,
+                        "y": 13.51500129699707,
+                        "z": 0.0
+                      },
+                      "Rotation": {
+                        "x": -0.0,
+                        "y": -0.0,
+                        "z": -0.0,
+                        "w": 1.0
+                      },
+                      "Scale": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                      }
+                    },
+                    "SpriteRenderer": {
+                      "Sprite": {
+                        "Name": "Sweat01",
+                        "PixelsToUnits": 100.0,
+                        "Pivot": {
+                          "x": 0.5,
+                          "y": 0.5
+                        }
+                      },
+                      "Enabled": false,
+                      "SortingOrder": 44,
+                      "Color": {
+                        "r": 1.0,
+                        "g": 1.0,
+                        "b": 1.0,
+                        "a": 1.0
+                      },
+                      "Materials": [
+                        {
+                          "Name": "Naninovel_Default",
+                          "Floats": {
+                            "_StencilRef": 0.0,
+                            "_StencilComp": 8.0
+                          }
+                        }
+                      ]
+                    },
+                    "IsActive": true,
+                    "Children": {}
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "-8590188289051352310": {
+        "Name": "Camera",
+        "Id": "-8590188289051352310",
+        "ParentId": "2074089837515547402",
+        "Transform": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -10.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "SpriteRenderer": null,
+        "IsActive": true,
+        "Children": {}
+      },
+      "-5433830096411843830": {
+        "Name": "LayerModifier",
+        "Id": "-5433830096411843830",
+        "ParentId": "2074089837515547402",
+        "Transform": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 1.0
+          },
+          "Scale": {
+            "x": 1.0,
+            "y": 1.0,
+            "z": 1.0
+          }
+        },
+        "SpriteRenderer": null,
+        "IsActive": true,
+        "Children": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,514 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fafafa;
+}
+
+#main-layout {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    min-width: 600px;
+    position: relative;
+    background: #f7f9fc;
+}
+
+#controls {
+    flex-basis: 500px;
+    min-width: 300px;
+    max-width: 900px;
+    background: #fff;
+    border-right: 1px solid #e0e0e0;
+    padding: 16px;
+    overflow-y: auto;
+    height: 100vh;
+    box-sizing: border-box;
+    transition: flex-basis 0.2s;
+    /* 阴影美化 */
+    box-shadow: 2px 0 8px rgba(0,0,0,0.04);
+}
+
+#splitter {
+    width: 8px;
+    background: linear-gradient(90deg,#e0e0e0 60%,#b0b0b0 100%);
+    cursor: ew-resize;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#splitter:hover {
+    background: linear-gradient(90deg,#b0b0b0 60%,#e0e0e0 100%);
+}
+#splitter::after {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 32px;
+    background: #1976d2;
+    border-radius: 2px;
+    opacity: 0.3;
+}
+
+#canvas-container {
+    flex: 1 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    height: 100vh;
+    min-width: 320px;
+    transition: flex-basis 0.2s;
+    box-shadow: -2px 0 8px rgba(0,0,0,0.03);
+}
+
+#canvas {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.fixed-btn {
+    position: fixed;
+    right: 20px;
+    padding: 8px 16px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+    transition: background 0.2s;
+}
+
+.fixed-btn:hover {
+    background: #388e3c;
+}
+
+#saveBtn {
+    bottom: 20px;
+}
+
+#backBtn {
+    bottom: 70px;
+    background: #1976d2;
+}
+
+#backBtn:hover {
+    background: #1565c0;
+}
+
+
+#resetBtn {
+    bottom: 120px;
+    background: #ff9800;
+}
+
+#resetBtn:hover {
+    background: #f57c00;
+}
+
+#controls label {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+#controls input[type="checkbox"] {
+    margin-left: 8px;
+}
+
+#controls .bold {
+    font-weight: bold;
+}
+
+/* 节点树美化 */
+.tree-node {
+    margin-bottom: 0;
+    padding: 0 0 0 4px; /* 去掉垂直方向的空白，左侧缩进更小 */
+    border-radius: 2px;
+    transition: background 0.15s;
+    position: relative;
+    background: #f8fbff;
+    font-size: 13px;
+    box-shadow: none;
+    border-left: 1px solid #e3eafc; /* 更细的左边线 */
+}
+
+.tree-node:hover {
+    background: #e3f2fd;
+    box-shadow: none;
+}
+
+.tree-node .tree-toggle {
+    font-size: 13px;
+    color: #1976d2;
+    margin-right: 2px;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    width: 12px;
+    text-align: center;
+    transition: color 0.2s;
+    padding: 0; /* 去掉内部空白 */
+}
+.tree-node .tree-toggle:hover {
+    color: #1565c0;
+}
+
+.tree-node .tree-title {
+    font-weight: 500;
+    font-size: 13px;
+    margin-right: 2px;
+    color: #1976d2;
+    letter-spacing: 0.1px;
+    vertical-align: middle;
+    padding: 4px; /* 恢复左右间距 */
+}
+
+.tree-node .tree-checkbox {
+    margin-left: 4px;
+    vertical-align: middle;
+    accent-color: #1976d2;
+    transform: scale(1);
+    padding: 0; /* 去掉内部空白 */
+}
+
+.tree-children {
+    margin-left: 16px; /* 增加缩进，布局更宽松 */
+    border-left: 1px dashed #e0e0e0;
+    padding-left: 0;
+    transition: border-color 0.2s;
+}
+
+.tree-group-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1565c0;
+    margin-bottom: 2px;
+    margin-top: 4px;
+    letter-spacing: 0.3px;
+    padding: 0;
+}
+
+.tree-parent-group {
+    margin-bottom: 12px;
+}
+
+.tree-header {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 14px;
+    color: #1565c0;
+    margin-bottom: 4px;
+}
+
+.tree-toggle {
+    margin-right: 6px;
+    user-select: none;
+    transition: transform 0.2s;
+}
+
+.thumb-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 8px;
+    padding: 8px 0;
+}
+
+.thumb-node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* 移除边框 */
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer;
+    padding: 4px 2px;
+    transition: border 0.2s, background 0.2s;
+}
+
+.thumb-node.selected {
+    border-color: #1976d2;
+    background: #e3f2fd;
+}
+
+.thumb-img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 4px;
+    background: #f5f5f5;
+    margin-bottom: 4px;
+}
+
+.thumb-name {
+    font-size: 12px;
+    text-align: center;
+    color: #1976d2;
+    font-weight: 500;
+    word-break: break-all;
+    margin-top: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #eee;
+}
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* 可拖动分割线 */
+#splitter {
+    width: 6px;
+    background: #e0e0e0;
+    cursor: ew-resize;
+    height: 100vh;
+    z-index: 10;
+    position: relative;
+}
+
+.thumb-node {
+    box-shadow: 0 2px 8px rgba(33,150,243,0.07);
+    transition: border 0.2s, background 0.2s;
+}
+.thumb-node:hover {
+    border-color: #42a5f5;
+    background: #e3f2fd;
+}
+
+#role-selector {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* allow centering while still permitting content taller than viewport */
+    background: #f7f9fc;
+    overflow-y: auto;
+    align-items: center;    /* 水平居中 */
+    justify-content: center; /* 垂直居中 */
+    padding: 24px 12px;
+}
+
+#role-selector h2 {
+    margin-bottom: 40px;
+    color: #1976d2;
+    font-size: 24px;
+}
+
+#roles-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.role-item {
+    margin: 20px;
+    text-align: center;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    padding: 16px;
+    transition: transform 0.2s;
+}
+
+.role-item:hover {
+    transform: translateY(-4px);
+}
+
+.role-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #1976d2;
+    object-fit: cover;
+}
+
+.role-item button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+
+.role-item button:hover {
+    background: #1565c0;
+}
+
+.role-item .role-content {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.role-item .role-name {
+    margin-top: 10px;
+    font-weight: 500;
+    color: #1976d2;
+}
+
+.role-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 响应式：在窄屏设备上将布局纵向化，控件挪到顶部，隐藏分割条，调整按钮位置 */
+@media (max-width: 800px) {
+    #main-layout {
+        flex-direction: column;
+        height: auto;
+        min-width: 0;
+    }
+    #controls {
+        flex-basis: auto !important;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        position: relative;
+        box-shadow: none;
+        border-right: none;
+        border-bottom: 1px solid #e8eaf6;
+        padding-bottom: 12px;
+    }
+    #splitter { display: none; }
+    #canvas-container {
+        width: 100%;
+        height: calc(100vh - 220px);
+        min-width: 0;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+    #canvas { border-radius: 6px; height: 100%; }
+
+    /* 隐藏桌面风格的 fixed 按钮（移动端使用抽屉按钮） */
+    .fixed-btn { display: none; }
+
+    /* 抽屉内按钮样式 */
+    .drawer-btn {
+        margin: 8px 8px 0 0;
+        padding: 10px 14px;
+        border-radius: 8px;
+        border: none;
+        background: #1976d2;
+        color: white;
+        font-weight: 600;
+    }
+    .drawer-btn:nth-child(1) { background: #4caf50; }
+    .drawer-btn:nth-child(2) { background: #1976d2; }
+    .drawer-btn:nth-child(3) { background: #ff9800; }
+
+    /* 缩小缩略图与文字，增加可点面积 */
+    .thumb-img { width: 40px; height: 40px; }
+    .thumb-name { font-size: 11px; }
+    .thumb-node { padding: 6px; border-radius: 8px; }
+}
+
+/* 移动端底部抽屉 */
+#mobile-drawer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 40;
+    display: none; /* 默认在桌面隐藏 */
+}
+
+/* 抽屉默认关闭状态（只显示手柄） */
+#mobile-drawer.drawer-closed {
+    height: 48px;
+}
+
+/* 抽屉打开（覆盖一部分屏幕） */
+#mobile-drawer.drawer-open {
+    height: 50vh;
+}
+
+#drawer-handle, #drawer-handle {
+    height: 48px;
+    background: linear-gradient(90deg,#e8eefc,#f7fbff);
+    text-align: center;
+    line-height: 48px;
+    color: #1976d2;
+    font-weight: 600;
+    border-top: 1px solid rgba(0,0,0,0.03);
+    border-left: 1px solid rgba(0,0,0,0.02);
+    border-right: 1px solid rgba(0,0,0,0.02);
+}
+
+/* 视觉化手柄条 */
+#drawer-handle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drawer-handle-bar {
+    width: 56px;
+    height: 6px;
+    background: #cfd8e3;
+    border-radius: 6px;
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,0.6);
+}
+
+/* 屏幕阅读器可见文本（视觉隐藏） */
+.sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    white-space: nowrap !important;
+    border: 0 !important;
+}
+
+#drawer-content {
+    background: #fff;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 12px;
+    box-shadow: 0 -6px 24px rgba(0,0,0,0.08);
+    overflow: auto;
+    height: calc(100% - 48px);
+}
+
+/* 在小屏时显示抽屉 */
+@media (max-width: 800px) {
+    #mobile-drawer { display: block; }
+    /* canvas 覆盖底层并可视为全屏，抽屉浮在上面 */
+    #canvas-container {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100vh;
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    #canvas { width: 100% !important; height: 100% !important; border-radius: 0; }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>选择角色</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div id="role-selector">
+        <div id="roles-list">
+            {% for r in characters %}
+            <div class="role-item">
+                <a href="/character/{{ r.name }}">
+                    <img src="{{ r.profile }}" alt="{{ r.name }}">
+                    <div class="role-name">{{ r.name }}</div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
